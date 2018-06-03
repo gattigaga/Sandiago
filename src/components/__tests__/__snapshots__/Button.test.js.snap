@@ -1,0 +1,33 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Button should renders default 1`] = `
+<DummyTouchableNativeFeedback
+  onPress={[MockFunction]}
+>
+  <Styled(Component)>
+    <Styled(Text)>
+      Login
+    </Styled(Text)>
+  </Styled(Component)>
+</DummyTouchableNativeFeedback>
+`;
+
+exports[`Button should renders with custom style 1`] = `
+<DummyTouchableNativeFeedback
+  onPress={[MockFunction]}
+>
+  <Styled(Component)
+    style={
+      Array [
+        Object {
+          "backgroundColor": "red",
+        },
+      ]
+    }
+  >
+    <Styled(Text)>
+      Login
+    </Styled(Text)>
+  </Styled(Component)>
+</DummyTouchableNativeFeedback>
+`;
