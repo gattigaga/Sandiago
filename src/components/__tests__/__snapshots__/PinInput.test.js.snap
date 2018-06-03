@@ -2,6 +2,11 @@
 
 exports[`PinInput should renders default 1`] = `
 <Styled(Component)>
+  <Styled(Text)
+    color="white"
+  >
+    Enter your PIN
+  </Styled(Text)>
   <Styled(Component)>
     <Styled(TextInput)
       color="#ffb142"

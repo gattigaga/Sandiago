@@ -11,6 +11,13 @@ const InputContainer = styled.View`
   justify-content: space-between;
 `;
 
+export const Label = styled.Text`
+  font-family: Roboto-Regular;
+  font-size: 14px;
+  color: ${({ color }) => color};
+  text-align: center;
+`;
+
 export const Input = styled.TextInput`
   width: 48px;
   font-family: Roboto-Bold;
@@ -64,11 +71,12 @@ class PinInput extends Component {
   }
 
   render() {
-    const { style, value, isError, errorText } = this.props;
+    const { style, label, value, isError, errorText } = this.props;
     const { focusIndex } = this.state;
 
     return (
       <Container style={style}>
+        <Label color={isError ? "#ff5252" : "white"}>{label}</Label>
         <InputContainer>
           {value.map((_, index) => {
             const ref = this.inputs[index];
@@ -100,6 +108,7 @@ class PinInput extends Component {
 
 PinInput.propTypes = {
   style: PropTypes.array,
+  label: PropTypes.string,
   value: PropTypes.array,
   onChange: PropTypes.func,
   isError: PropTypes.bool,
