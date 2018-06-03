@@ -1,0 +1,98 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`PinInput should renders default 1`] = `
+<Styled(Component)>
+  <Styled(Component)>
+    <Styled(TextInput)
+      color="#ffb142"
+      innerRef={
+        Object {
+          "current": null,
+        }
+      }
+      key="0"
+      keyboardType="phone-pad"
+      maxLength={1}
+      onChangeText={[Function]}
+      onFocus={[Function]}
+      underlineColorAndroid="#ffb142"
+      value=""
+    />
+    <Styled(TextInput)
+      color="white"
+      innerRef={
+        Object {
+          "current": null,
+        }
+      }
+      key="1"
+      keyboardType="phone-pad"
+      maxLength={1}
+      onChangeText={[Function]}
+      onFocus={[Function]}
+      underlineColorAndroid="white"
+      value=""
+    />
+    <Styled(TextInput)
+      color="white"
+      innerRef={
+        Object {
+          "current": null,
+        }
+      }
+      key="2"
+      keyboardType="phone-pad"
+      maxLength={1}
+      onChangeText={[Function]}
+      onFocus={[Function]}
+      underlineColorAndroid="white"
+      value=""
+    />
+    <Styled(TextInput)
+      color="white"
+      innerRef={
+        Object {
+          "current": null,
+        }
+      }
+      key="3"
+      keyboardType="phone-pad"
+      maxLength={1}
+      onChangeText={[Function]}
+      onFocus={[Function]}
+      underlineColorAndroid="white"
+      value=""
+    />
+    <Styled(TextInput)
+      color="white"
+      innerRef={
+        Object {
+          "current": null,
+        }
+      }
+      key="4"
+      keyboardType="phone-pad"
+      maxLength={1}
+      onChangeText={[Function]}
+      onFocus={[Function]}
+      underlineColorAndroid="white"
+      value=""
+    />
+    <Styled(TextInput)
+      color="white"
+      innerRef={
+        Object {
+          "current": null,
+        }
+      }
+      key="5"
+      keyboardType="phone-pad"
+      maxLength={1}
+      onChangeText={[Function]}
+      onFocus={[Function]}
+      underlineColorAndroid="white"
+      value=""
+    />
+  </Styled(Component)>
+</Styled(Component)>
+`;
