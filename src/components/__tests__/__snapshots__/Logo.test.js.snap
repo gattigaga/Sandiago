@@ -1,0 +1,21 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Logo should renders default 1`] = `
+<Styled(Text)>
+  Sandiago
+</Styled(Text)>
+`;
+
+exports[`Logo should renders with custom style 1`] = `
+<Styled(Text)
+  style={
+    Array [
+      Object {
+        "color": "red",
+      },
+    ]
+  }
+>
+  Sandiago
+</Styled(Text)>
+`;
