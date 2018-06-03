@@ -64,7 +64,7 @@ class PinInput extends Component {
       const newValue = value.map(assign(index, newPart));
       onChange(newValue);
 
-      if (isValid) {
+      if (isValid && newPart) {
         this.inputs[index + 1].current.focus();
       }
     };
