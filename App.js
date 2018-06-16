@@ -5,9 +5,11 @@ import { PersistGate } from "redux-persist/integration/react";
 
 import { store, persistor } from "./src/store/store";
 import Login from "./src/pages/Login";
+import Home from "./src/pages/Home";
 
 const MainRoute = createStackNavigator({
-  Login
+  Login,
+  Home
 });
 
 const App = () => (
