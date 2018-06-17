@@ -1,16 +1,36 @@
-import React, { Component } from "react";
+import React from "react";
+import PropTypes from "prop-types";
+import { StatusBar } from "react-native";
 import styled from "styled-components";
+
+import HeaderButton from "../components/HeaderButton";
+import AccountListContainer from "../components/AccountListContainer";
 
 const Container = styled.View`
   flex: 1;
-  padding: 24px;
-  background-color: white;
+  background-color: #474787;
 `;
 
-class Home extends Component {
-  render() {
-    return <Container />;
-  }
-}
+const Home = ({ navigation }) => (
+  <Container>
+    <StatusBar hidden />
+    <AccountListContainer navigation={navigation} />
+  </Container>
+);
+
+Home.navigationOptions = () => ({
+  headerTintColor: "white",
+  headerStyle: {
+    backgroundColor: "#474787",
+    elevation: 0,
+    height: 72
+  },
+  headerLeft: <HeaderButton icon="ios-add" />,
+  headerRight: <HeaderButton icon="ios-settings" />
+});
+
+Home.propTypes = {
+  navigation: PropTypes.object
+};
 
 export default Home;
