@@ -1,0 +1,19 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Account should renders default 1`] = `
+<DummyTouchableNativeFeedback
+  onPress={[MockFunction]}
+>
+  <Styled(Component)>
+    <Styled(Text)>
+      09:05 AM
+    </Styled(Text)>
+    <Styled(Text)>
+      Facebook
+    </Styled(Text)>
+    <Styled(Text)>
+      This is my first Facebook account
+    </Styled(Text)>
+  </Styled(Component)>
+</DummyTouchableNativeFeedback>
+`;
