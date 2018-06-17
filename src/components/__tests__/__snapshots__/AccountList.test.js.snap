@@ -1,0 +1,27 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`AccountList should renders default 1`] = `
+<Component>
+  <Account
+    date="11:05 AM"
+    description="This is my Facebook account."
+    key="1"
+    name="Facebook"
+    onPress={[Function]}
+  />
+  <Account
+    date="11:05 AM"
+    description="This is my Twitter account."
+    key="2"
+    name="Twitter"
+    onPress={[Function]}
+  />
+  <Account
+    date="11:05 AM"
+    description="This is my Google account."
+    key="3"
+    name="Google"
+    onPress={[Function]}
+  />
+</Component>
+`;
