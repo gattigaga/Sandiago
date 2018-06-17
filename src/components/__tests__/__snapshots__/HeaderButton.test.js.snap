@@ -1,0 +1,13 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`HeaderButton should renders default 1`] = `
+<DummyTouchableNativeFeedback
+  onPress={[MockFunction]}
+>
+  <Styled(Component)>
+    <Styled(Icon)
+      name="ios-settings"
+    />
+  </Styled(Component)>
+</DummyTouchableNativeFeedback>
+`;
