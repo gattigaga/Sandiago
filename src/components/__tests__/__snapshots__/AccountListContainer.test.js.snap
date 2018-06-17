@@ -1,0 +1,41 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`AccountListContainer should renders with accounts 1`] = `
+<Styled(Component)>
+  <Styled(ScrollView)>
+    <AccountList
+      items={
+        Array [
+          Object {
+            "date": 1529122840652,
+            "description": "This is my first facebook account",
+            "id": "1",
+            "name": "Facebook",
+          },
+          Object {
+            "date": 1529122840652,
+            "description": "This is my first twitter account",
+            "id": "2",
+            "name": "Twitter",
+          },
+          Object {
+            "date": 1529122840652,
+            "description": "This is my first google account",
+            "id": "3",
+            "name": "Google",
+          },
+        ]
+      }
+      onPress={[Function]}
+    />
+  </Styled(ScrollView)>
+</Styled(Component)>
+`;
+
+exports[`AccountListContainer should renders without accounts 1`] = `
+<Styled(Component)>
+  <Styled(Text)>
+    No Accounts were found.
+  </Styled(Text)>
+</Styled(Component)>
+`;
